@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { FaGithub,FaHtml5,FaCss3 } from "react-icons/fa";
+// import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -8,7 +9,7 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
+  DiMysql,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -36,13 +37,13 @@ function Techstack() {
         <TbBrandGolang />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <FaHtml5/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaCss3/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -60,13 +61,13 @@ function Techstack() {
         <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+      <FaGithub/>
       </Col>
     </Row>
   );
