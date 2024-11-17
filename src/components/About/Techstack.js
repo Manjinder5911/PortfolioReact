@@ -33,9 +33,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
@@ -45,21 +45,21 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaCss3/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
       </Col>
