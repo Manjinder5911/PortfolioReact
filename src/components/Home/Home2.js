@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,8 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I developed a deep passion for cybersecurity and technology, driven by a curiosity to understand and protect digital systems.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -28,12 +26,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest includes exploring cybersecurity concepts, such as&nbsp;
               <i>
-                <b className="purple">Web Technologies</b> and
-                also in areas related to{" "}
+                <b className="purple">threat analysis and vulnerability assessment</b>
+                , as well as building{" "}
                 <b className="purple">
-                  Cybersecurity.
+                modern web technologies.
                 </b>
               </i>
               <br />
@@ -75,16 +73,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
+             
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/manjisingh/"
